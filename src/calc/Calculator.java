@@ -104,7 +104,7 @@ public class Calculator {
 		 */
 		try {
 			ArrayList<Image> icons = new ArrayList<Image>();
-			final String ICON_FILE_PATH = "D:\\Cody\\My Documents\\Coding\\Calculator\\src\\calc\\";
+			final String ICON_FILE_PATH = "C:\\Users\\Cody\\BitTorrent\\My Documents\\Coding\\Calculator\\src\\calc";
 			icons.add(ImageIO.read(new FileInputStream(ICON_FILE_PATH + "imageIcon64.gif")));
 			icons.add(ImageIO.read(new FileInputStream(ICON_FILE_PATH + "imageIcon32.gif")));
 			frame.setIconImages(icons);
